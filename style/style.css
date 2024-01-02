@@ -3,19 +3,24 @@ body{
     
 }
 
-/* button{
-    background-color: yellow;
-} */
+button{
+    background-color: red;
+}
 
 #google_button{
     background-color: yellow;
-
+    
+}
+#ynet_button{
+    background-color: rgba(0, 255, 34, 0.489);
+    color:aliceblue;
+    padding:10px;
 }
 
 .circled_button{
-    width:50px;
-    border-radius: 40%;
+    border-radius: 50%;
     padding: 5px;
+    background-color: rgba(204, 255, 0, 0.489) ;
 }
 
 .blue_button{
@@ -23,6 +28,11 @@ body{
     color:aliceblue;
     padding:10px;
 }
+
+#hello{
+    background-color: rosybrown !important;
+}
+
 
 
 
