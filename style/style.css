@@ -1,5 +1,5 @@
 body{
-    background-color: red;
+    background-color: rgba(140, 255, 0, 0.438);
     
 }
 
@@ -9,9 +9,20 @@ body{
 
 #google_button{
     background-color: yellow;
+
 }
 
 .circled_button{
-    border-radius: 50%;
+    width:50px;
+    border-radius: 40%;
     padding: 5px;
 }
+
+.blue_button{
+    background-color: rgba(0, 0, 255, 0.489);
+    color:aliceblue;
+    padding:10px;
+}
+
+
+
