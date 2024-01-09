@@ -46,7 +46,6 @@ button{
 
 
 input[type='submit']{
-
     background-color: rgba(0, 0, 255, 0.489);
     color:aliceblue;
     padding: 10px;
@@ -62,9 +61,9 @@ form[action]{
 
 #radio_city{
     display:flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items:end;
     margin: 10px;
     padding: 10px;
     border: 2px solid black;
@@ -72,7 +71,38 @@ form[action]{
     background-color: rgba(0, 0, 255, 0.489);
     color:aliceblue;
     padding:10px;
+    min-width: 400px;
+    height: 150px;
+}
+
+label{
+    /*flexibele text size*/
+    font-size: 0.7em;
+
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.489);
+    width:50px;
+    height: 50px;
 }
 
 
+/*flex order*/
+
+#la_1{
+    order: 0;
+
+}
+
+#la_2{
+    order: 1;
+
+}
+
+#la_3{
+    order: 1;
+
+}
 
