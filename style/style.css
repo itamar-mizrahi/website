@@ -30,7 +30,7 @@ button{
 }
 
 #hello{
-    background-color: rosybrown !important;
+    background-color: rosybrown !important;/*not recommended*/
 }
 
 #container{
@@ -42,6 +42,36 @@ button{
     border-top: 8px solid red;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
+}
+
+
+input[type='submit']{
+
+    background-color: rgba(0, 0, 255, 0.489);
+    color:aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+    width:80px;
+    margin: 5px 10px 0px 10px;
+}
+
+form[action]{
+    display:flex;
+    flex-direction: column;
+}
+
+#radio_city{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.489);
+    color:aliceblue;
+    padding:10px;
 }
 
 
