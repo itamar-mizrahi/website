@@ -1,81 +1,83 @@
-body{
+body {
     background-color: rgba(140, 255, 0, 0.438);
-    
+
 }
 
-button{
+button {
     background-color: red;
 }
 
-#google_button{
+#google_button {
     background-color: yellow;
-    
-}
-#ynet_button{
-    background-color: rgba(0, 255, 34, 0.489);
-    color:aliceblue;
-    padding:10px;
+
 }
 
-.circled_button{
+#ynet_button {
+    background-color: rgba(0, 255, 34, 0.489);
+    color: aliceblue;
+    padding: 10px;
+}
+
+.circled_button {
     border-radius: 50%;
     padding: 5px;
-    background-color: rgba(204, 255, 0, 0.489) ;
+    background-color: rgba(204, 255, 0, 0.489);
 }
 
-.blue_button{
+.blue_button {
     background-color: rgba(0, 0, 255, 0.489);
-    color:aliceblue;
-    padding:10px;
+    color: aliceblue;
+    padding: 10px;
 }
 
-#hello{
-    background-color: rosybrown !important;/*not recommended*/
+#hello {
+    background-color: rosybrown !important;
+    /*not recommended*/
 }
 
-#container{
-    margin:10px;
-    padding:20px;
-    border:10px dotted black;
+#container {
+    margin: 10px;
+    padding: 20px;
+    border: 10px dotted black;
     border-color: brown;
     border-style: dashed;
     border-top: 8px solid red;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 
 }
 
 
-input[type='submit']{
+input[type='submit'] {
     background-color: rgba(0, 0, 255, 0.489);
-    color:aliceblue;
+    color: aliceblue;
     padding: 10px;
     border-radius: 50%;
-    width:80px;
+    width: 80px;
     margin: 5px 10px 0px 10px;
 }
 
-form[action]{
-    display:flex;
+form[action] {
+    display: flex;
     flex-direction: column;
 }
 
-#radio_city{
-    display:flex;
+#radio_city {
+    display: flex;
     /* flex-direction: row; */
     justify-content: center;
-    align-items:end;
+    align-items: end;
     margin: 10px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(0, 0, 255, 0.489);
-    color:aliceblue;
-    padding:10px;
+    color: aliceblue;
+    padding: 10px;
     min-width: 400px;
     height: 150px;
 }
 
-label{
+label {
     /*flexibele text size*/
     font-size: 0.7em;
 
@@ -84,25 +86,55 @@ label{
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(0, 0, 255, 0.489);
-    width:50px;
+    width: 50px;
     height: 50px;
 }
 
 
 /*flex order*/
 
-#la_1{
+#la_1 {
     order: 0;
 
 }
 
-#la_2{
+#la_2 {
     order: 1;
 
 }
 
-#la_3{
+#la_3 {
     order: 1;
 
 }
 
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
