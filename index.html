@@ -72,5 +72,13 @@
       </form>
     </div>
     <button id="hello">hello world</button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      document.getElementById("hello").addEventListener("click", function() {
+        axios.get("https://api.example.com/login").then(function(response) {
+          console.log(response.data);
+        });
+      });
+    </script>
   </body>
 </html>
