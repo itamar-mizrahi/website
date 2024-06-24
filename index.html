@@ -30,15 +30,15 @@
     </button>
     circled button
     <button class="circled_button">circle button</button>
-<nav class="navbar">
-  <ul class="navbar-links">
-    <li class="navbar-link"><a href="#">Home</a></li>
-    <li class="navbar-link"><a href="#">About</a></li>
-    <li class="navbar-link"><a href="#">Services</a></li>
-    <li class="navbar-link"><a href="#">Contact</a></li>
-  </ul>
-</nav>
-    
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link"><a href="#">Home</a></li>
+        <li class="navbar-link"><a href="#">About</a></li>
+        <li class="navbar-link"><a href="#">Services</a></li>
+        <li class="navbar-link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
     <button class="circled_button" on-click="dbConecct()">login button</button>
     <button class="circled_button blue_button">blue circle button</button>
     <div id="container">
@@ -49,14 +49,14 @@
         <input type="password" placeholder="password" id="1" />
         <input type="submit" value="submit" />
         <div id="radio_city">
-          <label  id='la_1' for="city">Jerusalem</label>
+          <label id="la_1" for="city">Jerusalem</label>
           <!-- <input type="radio" name="te"/> -->
           <label id="la_2" for="city">tel aviv</label>
           <!-- <input type="radio" value="tel aviv" name="red" id="" checked /> -->
           <label id="la_3" for="city">Beer Sheva</label>
           <!-- <input type="radio" name="" id="" /> -->
         </div>
-          <input type="submit" value="Submit" disabled />
+        <input type="submit" value="Submit" disabled />
         select male or female
         <select>
           <option value="male">male</option>
@@ -68,14 +68,13 @@
           <li>must contain at least one number</li>
           <li>must contain at least one special character</li>
         </ol>
-
       </form>
     </div>
     <button id="hello">hello world</button>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
-      document.getElementById("hello").addEventListener("click", function() {
-        axios.get("https://api.example.com/login").then(function(response) {
+      document.getElementById("hello").addEventListener("click", function () {
+        axios.get("https://api.example.com/login").then(function (response) {
           console.log(response.data);
         });
       });
